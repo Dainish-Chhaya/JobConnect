@@ -1,0 +1,50 @@
+# Maven target directory
+/target/
+
+# Logs
+*.log
+/logs/
+/*.log
+
+# Compiled class files
+*.class
+
+# Spring Boot properties
+application.properties
+application.yml
+
+# Database
+*.db
+*.sql
+*.sqlite
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# IDE-specific files
+/.idea/
+/*.iml
+*.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# JAR/WAR files
+*.jar
+*.war
+
+# Generated files
+*.pdf
+*.xlsx
+*.docx
+
+# Other sensitive files
+.env
+.secret
+/uploads/
+
+# Git-specific
+!.gitignore
